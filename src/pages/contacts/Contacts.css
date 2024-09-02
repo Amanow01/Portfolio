@@ -1,0 +1,22 @@
+.contacts h1 {
+  color: rgb(16, 16, 148);
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 3rem;
+  cursor: pointer;
+}
+.contacts h3 {
+  color: black;
+  font-size: 2rem;
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
+em {
+  font-size: 1.5rem;
+  color: gray;
+  cursor: pointer;
+  border-bottom: 2px solid orange;
+  margin-bottom: 1rem;
+}
+
+/* responsive */

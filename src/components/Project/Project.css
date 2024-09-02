@@ -1,0 +1,60 @@
+main {
+  width: 100%;
+  min-height: 50vh;
+}
+.project {
+  padding: 1rem 0;
+}
+
+.projectCart {
+  box-shadow: rgb(188, 185, 185) 4px 1px 15px 2px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  padding: 1rem;
+  border: 1.5px solid #ffff;
+  &:hover {
+    border: 1px solid rgb(198, 191, 191);
+  }
+}
+.projectCart img {
+  width: 100%;
+
+  transition: all 900ms ease;
+  &:hover {
+    filter: opacity(80%);
+  }
+  &:active {
+    filter: sepia(0.1);
+  }
+}
+.title-style {
+  color: #0e0e0e;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  padding-bottom: 1.5rem;
+  transition: all 400ms ease;
+  &:hover {
+    text-shadow: 1px 2px 0.5px orange;
+  }
+  &:active {
+    color: orange;
+  }
+}
+.gitHub-btn {
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: #ff7d00;
+  color: #fff;
+  padding: 0.75rem;
+  transition: all 800ms ease;
+  &:hover {
+    background-color: #ff9500;
+  }
+}
+
+/* responsive */
